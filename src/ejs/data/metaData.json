@@ -1,0 +1,17 @@
+{
+  "top": {
+    "title": "トップだよ",
+    "description": "トップのディスクリプション書くよ",
+    "url": "https://xxxxxxxx/"
+  },
+  "about": {
+    "title": "aboutだよ",
+    "description": "aboutのディスクリプション書くよ",
+    "url": "https://xxxxxxxx/about"
+  },
+  "company": {
+    "title": "companyだよ",
+    "description": "companyのディスクリプション書くよ",
+    "url": "https://xxxxxxxx/company"
+  }
+}

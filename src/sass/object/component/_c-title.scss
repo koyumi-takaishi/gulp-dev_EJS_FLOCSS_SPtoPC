@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.c-title {
+  font-size: myrem(36);
+  font-weight: bold;
+  text-align: center;
+
+  &::after {
+    content: "";
+    display: block;
+    width: myrem(100);
+    height: myrem(5);
+    margin: myrem(20) auto 0;
+    background-color: black;
+  }
+}

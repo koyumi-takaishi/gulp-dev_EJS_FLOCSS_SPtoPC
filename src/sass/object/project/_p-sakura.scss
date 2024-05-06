@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.p-sakura {
+  padding-top: myrem(100);
+  padding-bottom: myrem(100);
+  background-color: pink;
+}
+
+.p-sakura__img {
+  margin-top: myrem(30);
+}
+
+.p-sakura__btn {
+  margin-top: myrem(30);
+  text-align: center;
+}

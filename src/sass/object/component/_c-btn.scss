@@ -1,0 +1,11 @@
+@use "global" as *;
+
+.c-btn {
+  display: inline-block;
+  padding: myrem(10) myrem(20);
+  background-color: lightblue;
+}
+
+.c-btn.c-btn--yellow {
+  background-color: yellow;
+}

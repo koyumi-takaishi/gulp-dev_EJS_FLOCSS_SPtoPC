@@ -1,0 +1,14 @@
+<% basePath='..' ; ejsPath='..' ; metaData="about" %>
+<%- include(ejsPath + '/common/_head' ,{ basePath: basePath, meta: json[metaData] }) %>
+<%- include(ejsPath + '/common/_header' ),{ basePath: basePath} %>
+
+<main>
+  <%- include(ejsPath + '/component/_c-title' ,{ h1: true, text: "サクラのページだよh1" }) %>
+  <% for (var i = 0; i < 3; i++) { %>
+    <img src="<%= basePath %>/images/dummy.jpg" alt="" style="width: 30%;">
+  <% }; %>
+  <%- include(ejsPath + '/project/_p-cta') %>
+
+</main>
+
+<%- include(ejsPath + '/common/_footer' ) %>

@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.p-hinata {
+  padding-top: myrem(100);
+  padding-bottom: myrem(100);
+  background-color: lightyellow;
+}
+
+.p-hinata__img {
+  margin-top: myrem(30);
+}
+
+.p-hinata__btn {
+  margin-top: myrem(30);
+  text-align: center;
+}

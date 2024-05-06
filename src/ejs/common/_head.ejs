@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <!-- ↓↓↓本番公開時外す↓↓↓ -->
+  <meta name="robots" content="noindex" />
+  <!-- ↑↑↑本番公開時外す↑↑↑ -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <title><%= meta['title'] %></title>
+  <meta name="description" content="<%= meta['description'] %>" />
+  <meta property="og:site_name" content="<%= meta['title'] %>" />
+  <meta property="og:url" content="<%= meta['url'] %>" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<%= meta['title'] %>" />
+  <meta property="og:description" content="<%= meta['description'] %>" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:image" content="<%= basePath %>/images/common/ogp.jpg" />
+  <link rel="icon" href="<%= basePath %>/images/common/favicon.ico" />
+  <link rel="stylesheet" href="<%= basePath %>/css/styles.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer src="<%= basePath %>/js/script.js"></script>
+</head>
+
+<body>

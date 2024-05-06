@@ -1,0 +1,32 @@
+<% basePath='.' ; ejsPath='.' ; metaData="top" %>
+<%- include(ejsPath + '/common/_head' ,{ basePath: basePath, meta: json[metaData] }) %>
+<%- include(ejsPath + '/common/_header' ) %>
+
+<main>
+  <div style="padding: 100px 0;">
+    <%- include(ejsPath + '/component/_c-title' ,{ h1: true, text: "トップページだよh1" }) %>
+  </div>
+  
+  <section class="p-sakura">
+    <div class="l-inner p-sakura__inner">
+      <%- include(ejsPath + '/component/_c-title' ,{ h1: false, text: "サクラだよh2" }) %>
+      <div class="p-sakura__btn">
+        <%- include(ejsPath + '/component/_c-btn' ,{ path: basePath + "/sakura", className: "", text: "サクラページへ" }) %>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-hinata">
+    <div class="l-inner p-hinata__inner">
+      <%- include(ejsPath + '/component/_c-title' ,{ h1: false, text: "ヒナタだよh2" }) %>
+      <div class="p-hinata__btn">
+        <%- include(ejsPath + '/component/_c-btn' ,{ path: basePath + "/hinata", className: "c-btn--yellow", text: "ヒナタページへ" }) %>
+      </div>
+    </div>
+  </section>
+
+  <%- include(ejsPath + '/project/_p-cta') %>
+
+</main>
+
+<%- include(ejsPath + '/common/_footer' ) %>

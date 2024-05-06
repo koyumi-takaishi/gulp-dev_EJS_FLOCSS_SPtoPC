@@ -21,4 +21,3 @@
 - CSS設計はFLOCSS(https://github.com/hiloki/flocss )を採用
 - スマホファースト
 - rem記述を前提# gulp-dev_EJS_FLOCSS_SPtoPC
-# gulp-dev_EJS_FLOCSS_SPtoPC
